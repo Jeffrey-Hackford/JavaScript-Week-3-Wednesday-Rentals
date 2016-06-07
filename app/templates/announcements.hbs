@@ -1,7 +1,11 @@
-<h3>Important announcements</h3>
+<div class="container">
 
-{{#each model as |announcement|}}
-  {{log 'announcement: ' announcement}}
-  <h4>{{announcement.header}}</h4>
-  <p>{{announcement.text}}</p>
-{{/each}}
+  <h3>Important announcements</h3>
+
+  {{#each model as |announcement|}}
+    {{log 'announcement: ' announcement}}
+    <h4>{{announcement.header}}</h4>
+    <p>{{announcement.text}}</p>
+  {{/each}}
+
+</div>
