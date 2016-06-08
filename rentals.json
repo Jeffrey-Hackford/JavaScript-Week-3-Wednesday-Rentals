@@ -20,10 +20,18 @@
   }],
 
   "announcements": [{
-      "header": "Announcement 1",
-      "text": "We're number 1!"
+    "header": "Announcement 1",
+    "text": "We're number 1!"
+  }, {
+    "header": "Announcement 2",
+    "text": "Something something"
+  }],
+
+  "cities": [{
+    "name": "Portland",
+    "country": "USA"
     }, {
-      "header": "Announcement 2",
-      "text": "Something something"
-  }]
+    "name": "Seattle",
+    "country": "USA"
+   }]
 }
