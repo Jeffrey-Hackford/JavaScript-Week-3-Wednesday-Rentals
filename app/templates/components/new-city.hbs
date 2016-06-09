@@ -1,3 +1,4 @@
+{{#if addNewCity}}
 <div class="container">
   <form>
     <div class="form-group">
@@ -17,3 +18,6 @@
     <button {{action 'save1'}}>Save</button>
   </form>
 </div>
+{{else}}
+<button {{action 'cityFormShow'}}>Add a New City</button>
+{{/if}}
